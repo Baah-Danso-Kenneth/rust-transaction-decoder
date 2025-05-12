@@ -1,1 +1,62 @@
-/target
+# Cargo build artifacts
+/target/
+**/*.rs.bk
+
+# Cargo local files
+Cargo.lock
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Rust analyzer files
+rust-project.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Debug files
+*.o
+*.d
+*.out
+*.so
+*.dylib
+*.dll
+
+# Test binaries
+*.test
+
+# Coverage files
+*.profraw
+*.gcno
+*.gcda
+
+# Environment files
+.env
+.env.test
+
+# Backup files
+*.bak
+*.backup
+
+# Editor temporary files
+*~
+\#*\#
+.\#*
+
+# Rust documentation
+/doc/
+
+# Binaries for examples
+/examples/*.exe
+
+# MacOS system files
+._*
+
+# Windows system files
+[Tt]humbs.db
+Desktop.ini
+
+# Linux swap files
+*.swp
